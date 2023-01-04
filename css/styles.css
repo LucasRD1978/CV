@@ -1,0 +1,149 @@
+#picture {
+    height: 300px;
+    width: 300px;
+    padding-right: 25px;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 50px ;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(white, rgb(169, 169, 233));
+    font-size: 150%;    
+}
+
+#name2{
+    padding-right: 15px;
+}
+
+#personalInformation {
+    display: none;  
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    font-size: 22px;
+ 
+}
+
+.PI-icon{
+    display: flexbox;
+    align-self: flex-end;
+    justify-self: end;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+#skills {
+    display: none;
+    flex-direction: column;     
+}
+
+#titleSkill {
+    text-align:center;
+ }
+
+#education {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+#workExperience {
+    display: none;
+    flex-direction: column;
+}
+
+#titleWorkExperience{
+    text-align: center;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    border: solid 1px;
+    width: 800px;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.date{
+    display: flexbox; 
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-right: 50px; 
+}
+
+.date1 {
+    display: flex;
+}
+
+.busines{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    margin-right: 35px;
+}
+
+.enteprise {
+    display: flexbox;
+    justify-content: space-between;
+    
+}
+
+#itemExperience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size: 20px;
+}
+
+#home {
+    display: none;
+}
+
+
+body{
+    background-color:rgb(114, 197, 170);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.but{
+    background-image: -webkit-linear-gradient(top, #dda2bb, #539cc9);
+    height: 50px;
+    width: 120px;
+    margin: 8px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+ul {
+    line-height: 0.75cm;
+}
+
