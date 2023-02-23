@@ -71,6 +71,11 @@ a:hover {
     flex-direction: column;
 }
 
+#pdf {
+    display: none;
+    justify-content: center;
+}
+
 #workExperience {
     display: none;
     flex-direction: column;
